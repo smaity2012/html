@@ -1,0 +1,46 @@
+/*
+selectors : class, id, tag, universal, decentend
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: gray;
+    width: 400px;
+    height: 200px;
+    /* margin-left: 20px; external */
+    /* padding-left: 20px; internal */
+    border: 1px solid black;
+    /* margin: 2px 4px; */
+    /* padding: 20px 40px; */
+    /* padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px; */
+    margin: 0 auto;
+    display: flex;
+    gap: 5px;
+    
+
+}
+
+.element {
+    width: 100px;
+    height: 100px;
+    flex-basis: 50px;
+    /* display: inline; */
+}
+.el-1 {
+    background-color: aqua;
+}
+
+.el-2 {
+    background-color: rebeccapurple;
+}
+
+#error {
+    display: none;
+}
